@@ -24,3 +24,6 @@ http://127.0.0.1:8000/api/upload-image
 
 ```
 api type = post
+<p align="center"><a href="https://github.com/coswat/image-upload-api#coswat"><img src="http://randojs.com/images/barsSmallTransparentBackground.gif" alt="Animated footer bars" width="100%"/></a></p>
+<br/>
+<p align="center"><a href="https://github.com/coswat/image-upload-api#"><img src="http://randojs.com/images/backToTopButtonTransparentBackground.png" alt="Back to top" height="29"/></a></p>
