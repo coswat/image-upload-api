@@ -18,3 +18,9 @@ php artisan serve
 php artisan storage:link
 
 ```
+### api
+```
+http://127.0.0.1:8000/api/upload-image
+
+```
+api type = post
