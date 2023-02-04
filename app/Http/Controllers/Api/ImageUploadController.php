@@ -15,7 +15,7 @@ class ImageUploadController extends Controller
     {
         try {
             if ($request->hasFile('image') && $request->file('image')->isValid()) {
-                $extension = $request->file('image')->getClientOriginalExtension();
+                $extension = $request->file('image')->extension();
                 $image = Str::random(45).'.'.$extension;
                 if ($extension == 'png' || $extension == 'jpg' || $extension == 'jpeg') {
                     $path = $request->image->storeAs('images', $image);
